@@ -1,102 +1,506 @@
 {
-  "versao": 4,
-
-  "servidores": [
-    {"tipo": "piped", "url": "https://api.piped.private.coffee"},
-    {"tipo": "piped", "url": "https://pipedapi.ducks.party"},
-    {"tipo": "inv", "url": "https://yt.chocolatemoo53.com"}
-  ],
-  "chave_api": "",
-  "sponsorblock": "https://sponsor.ajay.app",
-
-  "_____1_TV_____": "TV AO VIVO. Uma unica pasta: Canais 24 Horas. O app busca no YouTube os canais ao vivo (lista 'buscas'), nao precisa por canal na mao. Para acrescentar um canal fixo: coloque { \"nome\": \"...\", \"id\": \"11 letras do video ao vivo\" } em 'canais'.",
-  "tv": [
+  "versao": 1,
+  "app": "Music Tube",
+  "secoes": [
     {
-      "key": "canais24h",
-      "title": "Canais 24 Horas",
-      "buscas": [
-        "canal 24 horas ao vivo ptbr",
-        "tv ao vivo 24 horas ptbr",
-        "notícias ao vivo 24 horas ptbr",
-        "música ao vivo 24 horas ptbr",
-        "desenhos ao vivo 24 horas ptbr",
-        "esportes ao vivo 24 horas ptbr",
-        "filmes e séries ao vivo 24 horas ptbr",
-        "lofi 24/7 ao vivo",
-        "live 24/7 channel"
-      ],
-      "canais": []
+      "key": "top",
+      "title": "⭐ Sucessos de todos os tempos",
+      "q": "maiores sucessos da música brasileira de todos os tempos clipe",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "sertanejo",
+      "title": "🤠 Sertanejo",
+      "q": "sertanejo as melhores 2026 clipe oficial",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "universitario",
+      "title": "🎤 Sertanejo universitário",
+      "q": "sertanejo universitário hits clipe oficial",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "modao",
+      "title": "🐎 Modão e sertanejo raiz",
+      "q": "modão sertanejo raiz clássicos clipe",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "funk",
+      "title": "💃 Funk",
+      "q": "funk hits 2026 mais tocados clipe oficial",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "pagode",
+      "title": "🥁 Pagode e samba",
+      "q": "pagode as melhores 2026 clipe oficial",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "forro",
+      "title": "🪗 Forró e piseiro",
+      "q": "piseiro forró 2026 mais tocadas clipe oficial",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "arrocha",
+      "title": "💘 Arrocha e seresta",
+      "q": "arrocha as mais tocadas clipe oficial",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "romanticas",
+      "title": "💕 Românticas",
+      "q": "músicas românticas brasileiras clipe oficial",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "popbr",
+      "title": "🇧🇷 Pop brasileiro",
+      "q": "pop brasileiro hits clipe oficial",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "rocknac",
+      "title": "🎸 Rock nacional",
+      "q": "rock nacional clássicos clipe oficial",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "mpb",
+      "title": "🎷 MPB e clássicos",
+      "q": "MPB clássicos Djavan Caetano Gilberto Gil clipe",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "rapbr",
+      "title": "🎙️ Rap e hip hop nacional",
+      "q": "rap nacional hip hop brasil clipe oficial",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "gospel",
+      "title": "🙏 Gospel e louvor",
+      "q": "louvores gospel mais tocados 2026 clipe oficial",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "inter",
+      "title": "🌎 Top internacional",
+      "q": "top hits internacional 2026 official music video",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "popint",
+      "title": "🎧 Pop internacional",
+      "q": "pop hits official music video 2026",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "latinas",
+      "title": "🌴 Latinas",
+      "q": "reggaeton latin hits official video 2026",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "hiphop",
+      "title": "🔊 Hip hop e R&B",
+      "q": "hip hop r&b hits official video",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "rockint",
+      "title": "🤘 Rock internacional",
+      "q": "rock clássicos internacional official video",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "eletronica",
+      "title": "🎹 Eletrônica e dance",
+      "q": "eletrônica dance house hits official video 2026",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "anos80",
+      "title": "📼 Flashback anos 80",
+      "q": "hits anos 80 internacional official video",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "anos90",
+      "title": "💿 Anos 90",
+      "q": "hits anos 90 internacional official video",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "anos2000",
+      "title": "📀 Anos 2000",
+      "q": "hits anos 2000 internacional official video",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "reggae",
+      "title": "🌿 Reggae",
+      "q": "reggae brasil e internacional clássicos clipe",
+      "min": 90,
+      "max": 40
+    },
+    {
+      "key": "relax",
+      "title": "🌙 Para relaxar",
+      "q": "música relaxante instrumental",
+      "min": 300,
+      "max": 40,
+      "dmax": 0
+    },
+    {
+      "key": "mixes",
+      "title": "🕒 Mixes longos para ouvir direto",
+      "q": "mix músicas brasileiras as melhores horas de música",
+      "min": 1800,
+      "max": 40,
+      "dmax": 0
     }
   ],
-
-  "secoes": [
-    {"_": "=================== 2 - LOCADORA (FILMES) - 24 horas fica em primeiro ==================="},
-    {"key": "24Filmes", "tipo": "movies", "title": "Filmes | 24 Horas", "q": "filmes 24 horas ao vivo dublado", "ao_vivo": true},
-    {"key": "filmes", "tipo": "movies", "title": "Filmes | Dublados", "q": "filme completo dublado português", "min": 3000},
-    {"key": "acao", "tipo": "movies", "title": "Filmes | Ação", "q": "filme de ação completo dublado", "min": 3000},
-    {"key": "comedia", "tipo": "movies", "title": "Filmes | Comédia", "q": "filme de comédia completo dublado", "min": 3000},
-    {"key": "terror", "tipo": "movies", "title": "Filmes | Terror", "q": "filme de terror completo dublado", "min": 3000},
-    {"key": "drama", "tipo": "movies", "title": "Filmes | Drama", "q": "filme drama completo dublado", "min": 3000},
-    {"key": "asiatico", "tipo": "movies", "title": "Filmes | Asiático", "q": "filmes asiático completo dublado", "min": 3000},
-    {"key": "ficcao", "tipo": "movies", "title": "Filmes | Ficção Científica", "q": "filme ficção científica completo dublado", "min": 3000},
-    {"key": "aventura", "tipo": "movies", "title": "Filmes | Aventura", "q": "filme de aventura completo dublado", "min": 3000},
-    {"key": "suspense", "tipo": "movies", "title": "Filmes | Suspense", "q": "filme de suspense thriller completo dublado", "min": 3000},
-    {"key": "romance", "tipo": "movies", "title": "Filmes | Romance", "q": "filme romance completo dublado", "min": 3000},
-    {"key": "faroeste", "tipo": "movies", "title": "Filmes | Faroeste", "q": "filme de faroeste completo dublado", "min": 3000},
-    {"key": "guerra", "tipo": "movies", "title": "Filmes | Guerra", "q": "filme de guerra completo dublado", "min": 3000},
-    {"key": "policial", "tipo": "movies", "title": "Filmes | Policial", "q": "filme policial crime completo dublado", "min": 3000},
-    {"key": "fantasia", "tipo": "movies", "title": "Filmes | Fantasia", "q": "filme de fantasia completo dublado", "min": 3000},
-    {"key": "misterio", "tipo": "movies", "title": "Filmes | Mistério", "q": "filme de mistério completo dublado", "min": 3000},
-    {"key": "artesmarciais", "tipo": "movies", "title": "Filmes | Artes Marciais", "q": "filme artes marciais kung fu completo dublado", "min": 3000},
-    {"key": "animacao", "tipo": "movies", "title": "Filmes | Animação", "q": "filme de animação completo dublado", "min": 2400},
-    {"key": "infantil", "tipo": "movies", "title": "Filmes | Infantil e Família", "q": "filme infantil família completo dublado", "min": 2400},
-    {"key": "classicos", "tipo": "movies", "title": "Filmes | Clássicos", "q": "filme clássico antigo completo dublado", "min": 3000},
-    {"key": "nacionais", "tipo": "movies", "title": "Filmes | Nacionais", "q": "filme nacional brasileiro completo", "min": 3000},
-    {"_": "=================== 3 - SERIES (24 horas em primeiro, depois series, clipes e videos) ==================="},
-    {"key": "24horas", "tipo": "series", "title": "Séries | 24 Horas", "q": "24 horas ao vivo maratona dublado ptbr", "ao_vivo": true},
-    {"key": "animes", "tipo": "series", "title": "Séries | Animes", "q": "anime completo dublado português", "min": 1200},
-    {"key": "animesclassicos", "tipo": "series", "title": "Séries | Animes Clássicos", "q": "anime clássico anos 90 episódios dublado", "min": 900},
-    {"key": "desenhos", "tipo": "series", "title": "Séries | Desenhos Clássicos", "q": "desenho animado clássico episódios completos dublado", "min": 900},
-    {"key": "desinfantil", "tipo": "series", "title": "Séries | Desenhos Infantis", "q": "desenho infantil episódios completos dublado ptbr", "min": 900},
-    {"key": "novelas", "tipo": "series", "title": "Séries | Novelas", "q": "novela capítulo completo dublado ptbr", "min": 1500},
-    {"key": "seriescompletas", "tipo": "series", "title": "Séries | Séries Completas", "q": "série completa dublada episódios", "min": 1500},
-    {"key": "docs", "tipo": "series", "title": "Séries | Documentários", "q": "documentário completo dublado português", "min": 1800},
-    {"key": "animais", "tipo": "series", "title": "Séries | Animais e Vida Selvagem", "q": "documentário animais vida selvagem português", "min": 1200},
-    {"key": "natureza", "tipo": "series", "title": "Séries | Natureza", "q": "documentário natureza paisagens português brasil", "min": 1200},
-    {"key": "historia", "tipo": "series", "title": "Séries | Documentários de História", "q": "documentário história completo dublado", "min": 1800},
-    {"key": "ciencia", "tipo": "series", "title": "Séries | Ciência e Espaço", "q": "documentário espaço universo ciência dublado", "min": 1800},
-    {"key": "crimes", "tipo": "series", "title": "Séries | Crimes Reais", "q": "documentário crimes reais completo dublado ptbr", "min": 1800},
-    {"key": "Minidramas", "tipo": "series", "title": "Séries | Minidramas", "q": "Minidramas dublado", "min": 1800},
-    {"key": "pegadinha", "tipo": "series", "title": "Videos | pegadinha", "q": "comedia pegadinha dublado", "min": 1500},
-    {"key": "clipestop", "tipo": "series", "title": "Clipes | Top Hits Internacionais", "q": "top english hits official music video"},
-    {"key": "clipespop", "tipo": "series", "title": "Clipes | Pop Internacional", "q": "pop official music video english"},
-    {"key": "clipesrock", "tipo": "series", "title": "Clipes | Rock Internacional", "q": "rock official music video english"},
-    {"key": "clipeshiphop", "tipo": "series", "title": "Clipes | Hip Hop e Rap", "q": "hip hop rap official music video english"},
-    {"key": "clipesdance", "tipo": "series", "title": "Clipes | Eletrônica e Dance", "q": "dance electronic official music video"},
-    {"key": "clipescountry", "tipo": "series", "title": "Clipes | Country", "q": "country official music video english"},
-    {"key": "clipes80", "tipo": "series", "title": "Clipes | Anos 80", "q": "80s official music video hits"},
-    {"key": "clipes90", "tipo": "series", "title": "Clipes | Anos 90", "q": "90s official music video hits"},
-    {"key": "clipes2000", "tipo": "series", "title": "Clipes | Anos 2000", "q": "2000s official music video hits"},
-    {"key": "nocturnal", "tipo": "series", "title": "Clipes | Nocturnal Records", "q": "Nocturnal Records"},
-    {"key": "Repo!", "tipo": "series", "title": "Clipes | Repo! The Genetic Opera", "q": "Repo! The Genetic Opera Official Video"},
-    {"key": "K-pop", "tipo": "series", "title": "Clipes | K-pop Asian", "q": "kpop girl group official MV"},
-    {"key": "emo", "tipo": "series", "title": "Clipes | Emo", "q": "clip music emo"},
-    {"key": "gothic", "tipo": "series", "title": "Clipes | Gothic", "q": "clip music gothic"},
-    {"key": "Melanie Martinez", "tipo": "series", "title": "Clipes | Melanie Martinez", "q": "Melanie Martinez (Official Video)"},
-    {"key": "AvrilLavigne", "tipo": "series", "title": "Clipes | Avril Lavigne", "q": "Avril Lavigne (Official Video)"},
-    {"key": "Guns", "tipo": "series", "title": "Clipes | Guns N' Roses", "q": "Guns N' Roses (Official Video)"},
-    {"key": "TheCure", "tipo": "series", "title": "Clipes | The Cure", "q": "clip The Cure (Official Video)"},
-    {"key": "BlackEyedPeas", "tipo": "series", "title": "Clipes | Black Eyed Peas", "q": "Black Eyed Peas (Official Video)"},
-    {"key": "OfficialVideo", "tipo": "series", "title": "Clipes | Official Video", "q": "Clipes Official Video"},
-    {"key": "brasil", "tipo": "series", "title": "Clipes | Brasil", "q": "official videoclip brasil"},
-    {"key": "parodia", "tipo": "series", "title": "Videos | Parodia", "q": "parodia video clips"},
-    {"key": "cdzremake", "tipo": "series", "title": "Videos | cdz ia", "q": "cdz remake ia ptbr"},
-    {"key": "jogos", "tipo": "series", "title": "Videos | GamePlay", "q": "jogos gameplay play pt br"},
-    {"key": "dbd", "tipo": "series", "title": "Videos | DBD", "q": "dead by daylight no commentary"},
-    {"key": "kof", "tipo": "series", "title": "Videos | KOF", "q": "M. Bizarro"},
-    {"key": "terceiroolho", "tipo": "series", "title": "Videos | Terceiro olho", "q": "Terceiro olho"},
-    {"key": "mantras", "tipo": "series", "title": "Videos | Mantras", "q": "mantras Terceiro olho"},
-    {"key": "ued", "tipo": "series", "title": "Videos | Universo Em Desencanto", "q": "Audio Leitura Universo Em Desencanto"},
-    {"key": "mjc", "tipo": "series", "title": "Videos | M.J.C", "q": "Manuel Jacinto Coelho"}
-  ]
+  "categorias": {
+    "emalta": [
+      {
+        "t": "trend",
+        "key": "ea-geral",
+        "title": "🔥 Músicas em alta no Brasil"
+      },
+      {
+        "key": "ea-viral",
+        "title": "📈 Virais do momento",
+        "q": "músicas virais do momento tiktok brasil clipe",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "ea-novas",
+        "title": "🆕 Lançamentos da semana",
+        "q": "lançamentos músicas novas esta semana clipe oficial",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "ea-fora",
+        "title": "🌎 Em alta lá fora",
+        "q": "top global hits this week official video",
+        "min": 90,
+        "max": 40
+      }
+    ],
+    "brasil": [
+      {
+        "key": "br-mpb",
+        "title": "🎷 MPB e clássicos",
+        "q": "MPB clássicos Djavan Caetano Gilberto Gil clipe",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "br-pop",
+        "title": "🇧🇷 Pop brasileiro",
+        "q": "pop brasileiro hits clipe oficial",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "br-rock",
+        "title": "🎸 Rock nacional",
+        "q": "rock nacional clássicos clipe oficial",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "br-rap",
+        "title": "🎙️ Rap e hip hop nacional",
+        "q": "rap nacional hip hop brasil clipe oficial",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "br-samba",
+        "title": "🥁 Samba de raiz",
+        "q": "samba de raiz clássicos Cartola Zeca Pagodinho Beth Carvalho",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "br-bossa",
+        "title": "🌊 Bossa nova",
+        "q": "bossa nova clássicos Tom Jobim João Gilberto",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "br-90",
+        "title": "📼 Flashback Brasil",
+        "q": "flashback brasil anos 90 2000 clipe",
+        "min": 90,
+        "max": 40
+      }
+    ],
+    "sertanejo": [
+      {
+        "key": "se-top",
+        "title": "🔥 Sertanejo mais tocadas",
+        "q": "sertanejo as melhores 2026 clipe oficial",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "se-uni",
+        "title": "🎤 Universitário",
+        "q": "sertanejo universitário hits clipe oficial",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "se-modao",
+        "title": "🐎 Modão e raiz",
+        "q": "modão sertanejo raiz clássicos clipe",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "se-fem",
+        "title": "👩 Feminejo",
+        "q": "feminejo as melhores clipe oficial",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "se-duplas",
+        "title": "👬 Duplas clássicas",
+        "q": "Chitãozinho e Xororó Zezé Di Camargo e Luciano Leandro e Leonardo clássicos clipe",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "se-novas",
+        "title": "🆕 Lançamentos",
+        "q": "sertanejo lançamentos novos clipe oficial",
+        "min": 90,
+        "max": 40
+      }
+    ],
+    "funk": [
+      {
+        "key": "fu-funk",
+        "title": "💃 Funk hits",
+        "q": "funk hits 2026 mais tocados clipe oficial",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "fu-antigo",
+        "title": "📼 Funk clássico",
+        "q": "funk clássicos anos 2000 mais tocados clipe",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "fu-pagode",
+        "title": "🥁 Pagode hits",
+        "q": "pagode as melhores 2026 clipe oficial",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "fu-pag90",
+        "title": "💿 Pagode anos 90",
+        "q": "pagode anos 90 clássicos Raça Negra Só Pra Contrariar Exaltasamba",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "fu-samba",
+        "title": "🪘 Samba e partido alto",
+        "q": "samba partido alto Zeca Pagodinho Arlindo Cruz clipe",
+        "min": 90,
+        "max": 40
+      }
+    ],
+    "forro": [
+      {
+        "key": "fo-top",
+        "title": "🪗 Forró e piseiro",
+        "q": "piseiro forró 2026 mais tocadas clipe oficial",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "fo-pe",
+        "title": "🌵 Forró pé de serra",
+        "q": "forró pé de serra clássicos Luiz Gonzaga Dominguinhos",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "fo-arrocha",
+        "title": "💘 Arrocha e seresta",
+        "q": "arrocha as mais tocadas clipe oficial",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "fo-vaquejada",
+        "title": "🐴 Vaquejada",
+        "q": "forró eletrônico vaquejada as melhores clipe",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "fo-novas",
+        "title": "🆕 Piseiro lançamentos",
+        "q": "piseiro lançamentos novos clipe oficial",
+        "min": 90,
+        "max": 40
+      }
+    ],
+    "gospel": [
+      {
+        "key": "go-top",
+        "title": "🙏 Louvores mais tocados",
+        "q": "louvores gospel mais tocados 2026 clipe oficial",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "go-br",
+        "title": "⛪ Gospel brasileiro",
+        "q": "gospel brasileiro as melhores Aline Barros Thalles Roberto Gabriela Rocha",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "go-hinos",
+        "title": "📖 Hinos tradicionais",
+        "q": "hinos tradicionais harpa cristã cantados",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "go-int",
+        "title": "🌎 Worship internacional",
+        "q": "worship songs hillsong official video",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "go-adoracao",
+        "title": "🕊️ Adoração para orar",
+        "q": "adoração instrumental oração louvor",
+        "min": 300,
+        "max": 40,
+        "dmax": 0
+      }
+    ],
+    "internacional": [
+      {
+        "key": "in-top",
+        "title": "🌎 Top hits",
+        "q": "top hits internacional 2026 official music video",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "in-pop",
+        "title": "🎧 Pop",
+        "q": "pop hits official music video 2026",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "in-rock",
+        "title": "🤘 Rock",
+        "q": "rock clássicos internacional official video",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "in-hiphop",
+        "title": "🔊 Hip hop e R&B",
+        "q": "hip hop r&b hits official video",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "in-latinas",
+        "title": "🌴 Latinas",
+        "q": "reggaeton latin hits official video 2026",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "in-eletro",
+        "title": "🎹 Eletrônica",
+        "q": "eletrônica dance house hits official video 2026",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "in-country",
+        "title": "🤠 Country",
+        "q": "country music hits official video",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "in-80",
+        "title": "📼 Anos 80",
+        "q": "hits anos 80 internacional official video",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "in-90",
+        "title": "💿 Anos 90",
+        "q": "hits anos 90 internacional official video",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "in-00",
+        "title": "📀 Anos 2000",
+        "q": "hits anos 2000 internacional official video",
+        "min": 90,
+        "max": 40
+      },
+      {
+        "key": "in-love",
+        "title": "💕 Baladas românticas",
+        "q": "love songs baladas românticas internacionais anos 80 90 official video",
+        "min": 90,
+        "max": 40
+      }
+    ]
+  }
 }
