@@ -1,172 +1,172 @@
 {
-  "versao": 1,
+  "versao": 2,
   "app": "Music Tube",
   "secoes": [
     {
       "key": "top",
       "title": "⭐ Sucessos de todos os tempos",
-      "q": "maiores sucessos da música brasileira de todos os tempos clipe",
+      "q": "maiores sucessos da música brasileira de todos os tempos",
       "min": 90,
       "max": 40
     },
     {
       "key": "sertanejo",
       "title": "🤠 Sertanejo",
-      "q": "sertanejo as melhores 2026 clipe oficial",
+      "q": "sertanejo as melhores 2026",
       "min": 90,
       "max": 40
     },
     {
       "key": "universitario",
       "title": "🎤 Sertanejo universitário",
-      "q": "sertanejo universitário hits clipe oficial",
+      "q": "sertanejo universitário hits",
       "min": 90,
       "max": 40
     },
     {
       "key": "modao",
       "title": "🐎 Modão e sertanejo raiz",
-      "q": "modão sertanejo raiz clássicos clipe",
+      "q": "modão sertanejo raiz clássicos",
       "min": 90,
       "max": 40
     },
     {
       "key": "funk",
       "title": "💃 Funk",
-      "q": "funk hits 2026 mais tocados clipe oficial",
+      "q": "funk hits 2026 mais tocados",
       "min": 90,
       "max": 40
     },
     {
       "key": "pagode",
       "title": "🥁 Pagode e samba",
-      "q": "pagode as melhores 2026 clipe oficial",
+      "q": "pagode as melhores 2026",
       "min": 90,
       "max": 40
     },
     {
       "key": "forro",
       "title": "🪗 Forró e piseiro",
-      "q": "piseiro forró 2026 mais tocadas clipe oficial",
+      "q": "piseiro forró 2026 mais tocadas",
       "min": 90,
       "max": 40
     },
     {
       "key": "arrocha",
       "title": "💘 Arrocha e seresta",
-      "q": "arrocha as mais tocadas clipe oficial",
+      "q": "arrocha as mais tocadas",
       "min": 90,
       "max": 40
     },
     {
       "key": "romanticas",
       "title": "💕 Românticas",
-      "q": "músicas românticas brasileiras clipe oficial",
+      "q": "músicas românticas brasileiras",
       "min": 90,
       "max": 40
     },
     {
       "key": "popbr",
       "title": "🇧🇷 Pop brasileiro",
-      "q": "pop brasileiro hits clipe oficial",
+      "q": "pop brasileiro hits",
       "min": 90,
       "max": 40
     },
     {
       "key": "rocknac",
       "title": "🎸 Rock nacional",
-      "q": "rock nacional clássicos clipe oficial",
+      "q": "rock nacional clássicos",
       "min": 90,
       "max": 40
     },
     {
       "key": "mpb",
       "title": "🎷 MPB e clássicos",
-      "q": "MPB clássicos Djavan Caetano Gilberto Gil clipe",
+      "q": "MPB clássicos Djavan Caetano Gilberto Gil",
       "min": 90,
       "max": 40
     },
     {
       "key": "rapbr",
       "title": "🎙️ Rap e hip hop nacional",
-      "q": "rap nacional hip hop brasil clipe oficial",
+      "q": "rap nacional hip hop brasil",
       "min": 90,
       "max": 40
     },
     {
       "key": "gospel",
       "title": "🙏 Gospel e louvor",
-      "q": "louvores gospel mais tocados 2026 clipe oficial",
+      "q": "louvores gospel mais tocados 2026",
       "min": 90,
       "max": 40
     },
     {
       "key": "inter",
       "title": "🌎 Top internacional",
-      "q": "top hits internacional 2026 official music video",
+      "q": "top hits internacional 2026",
       "min": 90,
       "max": 40
     },
     {
       "key": "popint",
       "title": "🎧 Pop internacional",
-      "q": "pop hits official music video 2026",
+      "q": "pop hits 2026",
       "min": 90,
       "max": 40
     },
     {
       "key": "latinas",
       "title": "🌴 Latinas",
-      "q": "reggaeton latin hits official video 2026",
+      "q": "reggaeton latin hits 2026",
       "min": 90,
       "max": 40
     },
     {
       "key": "hiphop",
       "title": "🔊 Hip hop e R&B",
-      "q": "hip hop r&b hits official video",
+      "q": "hip hop r&b hits",
       "min": 90,
       "max": 40
     },
     {
       "key": "rockint",
       "title": "🤘 Rock internacional",
-      "q": "rock clássicos internacional official video",
+      "q": "rock clássicos internacional",
       "min": 90,
       "max": 40
     },
     {
       "key": "eletronica",
       "title": "🎹 Eletrônica e dance",
-      "q": "eletrônica dance house hits official video 2026",
+      "q": "eletrônica dance house hits 2026",
       "min": 90,
       "max": 40
     },
     {
       "key": "anos80",
       "title": "📼 Flashback anos 80",
-      "q": "hits anos 80 internacional official video",
+      "q": "hits anos 80 internacional",
       "min": 90,
       "max": 40
     },
     {
       "key": "anos90",
       "title": "💿 Anos 90",
-      "q": "hits anos 90 internacional official video",
+      "q": "hits anos 90 internacional",
       "min": 90,
       "max": 40
     },
     {
       "key": "anos2000",
       "title": "📀 Anos 2000",
-      "q": "hits anos 2000 internacional official video",
+      "q": "hits anos 2000 internacional",
       "min": 90,
       "max": 40
     },
     {
       "key": "reggae",
       "title": "🌿 Reggae",
-      "q": "reggae brasil e internacional clássicos clipe",
+      "q": "reggae brasil e internacional clássicos",
       "min": 90,
       "max": 40
     },
@@ -174,17 +174,8 @@
       "key": "relax",
       "title": "🌙 Para relaxar",
       "q": "música relaxante instrumental",
-      "min": 300,
-      "max": 40,
-      "dmax": 0
-    },
-    {
-      "key": "mixes",
-      "title": "🕒 Mixes longos para ouvir direto",
-      "q": "mix músicas brasileiras as melhores horas de música",
-      "min": 1800,
-      "max": 40,
-      "dmax": 0
+      "min": 120,
+      "max": 40
     }
   ],
   "categorias": {
@@ -197,21 +188,21 @@
       {
         "key": "ea-viral",
         "title": "📈 Virais do momento",
-        "q": "músicas virais do momento tiktok brasil clipe",
+        "q": "músicas virais do momento tiktok brasil",
         "min": 90,
         "max": 40
       },
       {
         "key": "ea-novas",
         "title": "🆕 Lançamentos da semana",
-        "q": "lançamentos músicas novas esta semana clipe oficial",
+        "q": "lançamentos músicas novas esta semana",
         "min": 90,
         "max": 40
       },
       {
         "key": "ea-fora",
         "title": "🌎 Em alta lá fora",
-        "q": "top global hits this week official video",
+        "q": "top global hits this week",
         "min": 90,
         "max": 40
       }
@@ -220,28 +211,28 @@
       {
         "key": "br-mpb",
         "title": "🎷 MPB e clássicos",
-        "q": "MPB clássicos Djavan Caetano Gilberto Gil clipe",
+        "q": "MPB clássicos Djavan Caetano Gilberto Gil",
         "min": 90,
         "max": 40
       },
       {
         "key": "br-pop",
         "title": "🇧🇷 Pop brasileiro",
-        "q": "pop brasileiro hits clipe oficial",
+        "q": "pop brasileiro hits",
         "min": 90,
         "max": 40
       },
       {
         "key": "br-rock",
         "title": "🎸 Rock nacional",
-        "q": "rock nacional clássicos clipe oficial",
+        "q": "rock nacional clássicos",
         "min": 90,
         "max": 40
       },
       {
         "key": "br-rap",
         "title": "🎙️ Rap e hip hop nacional",
-        "q": "rap nacional hip hop brasil clipe oficial",
+        "q": "rap nacional hip hop brasil",
         "min": 90,
         "max": 40
       },
@@ -262,7 +253,7 @@
       {
         "key": "br-90",
         "title": "📼 Flashback Brasil",
-        "q": "flashback brasil anos 90 2000 clipe",
+        "q": "flashback brasil anos 90 2000",
         "min": 90,
         "max": 40
       }
@@ -271,42 +262,42 @@
       {
         "key": "se-top",
         "title": "🔥 Sertanejo mais tocadas",
-        "q": "sertanejo as melhores 2026 clipe oficial",
+        "q": "sertanejo as melhores 2026",
         "min": 90,
         "max": 40
       },
       {
         "key": "se-uni",
         "title": "🎤 Universitário",
-        "q": "sertanejo universitário hits clipe oficial",
+        "q": "sertanejo universitário hits",
         "min": 90,
         "max": 40
       },
       {
         "key": "se-modao",
         "title": "🐎 Modão e raiz",
-        "q": "modão sertanejo raiz clássicos clipe",
+        "q": "modão sertanejo raiz clássicos",
         "min": 90,
         "max": 40
       },
       {
         "key": "se-fem",
         "title": "👩 Feminejo",
-        "q": "feminejo as melhores clipe oficial",
+        "q": "feminejo as melhores",
         "min": 90,
         "max": 40
       },
       {
         "key": "se-duplas",
         "title": "👬 Duplas clássicas",
-        "q": "Chitãozinho e Xororó Zezé Di Camargo e Luciano Leandro e Leonardo clássicos clipe",
+        "q": "Chitãozinho e Xororó Zezé Di Camargo e Luciano Leandro e Leonardo clássicos",
         "min": 90,
         "max": 40
       },
       {
         "key": "se-novas",
         "title": "🆕 Lançamentos",
-        "q": "sertanejo lançamentos novos clipe oficial",
+        "q": "sertanejo lançamentos novos",
         "min": 90,
         "max": 40
       }
@@ -315,21 +306,21 @@
       {
         "key": "fu-funk",
         "title": "💃 Funk hits",
-        "q": "funk hits 2026 mais tocados clipe oficial",
+        "q": "funk hits 2026 mais tocados",
         "min": 90,
         "max": 40
       },
       {
         "key": "fu-antigo",
         "title": "📼 Funk clássico",
-        "q": "funk clássicos anos 2000 mais tocados clipe",
+        "q": "funk clássicos anos 2000 mais tocados",
         "min": 90,
         "max": 40
       },
       {
         "key": "fu-pagode",
         "title": "🥁 Pagode hits",
-        "q": "pagode as melhores 2026 clipe oficial",
+        "q": "pagode as melhores 2026",
         "min": 90,
         "max": 40
       },
@@ -343,7 +334,7 @@
       {
         "key": "fu-samba",
         "title": "🪘 Samba e partido alto",
-        "q": "samba partido alto Zeca Pagodinho Arlindo Cruz clipe",
+        "q": "samba partido alto Zeca Pagodinho Arlindo Cruz",
         "min": 90,
         "max": 40
       }
@@ -352,7 +343,7 @@
       {
         "key": "fo-top",
         "title": "🪗 Forró e piseiro",
-        "q": "piseiro forró 2026 mais tocadas clipe oficial",
+        "q": "piseiro forró 2026 mais tocadas",
         "min": 90,
         "max": 40
       },
@@ -366,21 +357,21 @@
       {
         "key": "fo-arrocha",
         "title": "💘 Arrocha e seresta",
-        "q": "arrocha as mais tocadas clipe oficial",
+        "q": "arrocha as mais tocadas",
         "min": 90,
         "max": 40
       },
       {
         "key": "fo-vaquejada",
         "title": "🐴 Vaquejada",
-        "q": "forró eletrônico vaquejada as melhores clipe",
+        "q": "forró eletrônico vaquejada as melhores",
         "min": 90,
         "max": 40
       },
       {
         "key": "fo-novas",
         "title": "🆕 Piseiro lançamentos",
-        "q": "piseiro lançamentos novos clipe oficial",
+        "q": "piseiro lançamentos novos",
         "min": 90,
         "max": 40
       }
@@ -389,7 +380,7 @@
       {
         "key": "go-top",
         "title": "🙏 Louvores mais tocados",
-        "q": "louvores gospel mais tocados 2026 clipe oficial",
+        "q": "louvores gospel mais tocados 2026",
         "min": 90,
         "max": 40
       },
@@ -410,7 +401,7 @@
       {
         "key": "go-int",
         "title": "🌎 Worship internacional",
-        "q": "worship songs hillsong official video",
+        "q": "worship songs hillsong",
         "min": 90,
         "max": 40
       },
@@ -418,86 +409,85 @@
         "key": "go-adoracao",
         "title": "🕊️ Adoração para orar",
         "q": "adoração instrumental oração louvor",
-        "min": 300,
-        "max": 40,
-        "dmax": 0
+        "min": 120,
+        "max": 40
       }
     ],
     "internacional": [
       {
         "key": "in-top",
         "title": "🌎 Top hits",
-        "q": "top hits internacional 2026 official music video",
+        "q": "top hits internacional 2026",
         "min": 90,
         "max": 40
       },
       {
         "key": "in-pop",
         "title": "🎧 Pop",
-        "q": "pop hits official music video 2026",
+        "q": "pop hits 2026",
         "min": 90,
         "max": 40
       },
       {
         "key": "in-rock",
         "title": "🤘 Rock",
-        "q": "rock clássicos internacional official video",
+        "q": "rock clássicos internacional",
         "min": 90,
         "max": 40
       },
       {
         "key": "in-hiphop",
         "title": "🔊 Hip hop e R&B",
-        "q": "hip hop r&b hits official video",
+        "q": "hip hop r&b hits",
         "min": 90,
         "max": 40
       },
       {
         "key": "in-latinas",
         "title": "🌴 Latinas",
-        "q": "reggaeton latin hits official video 2026",
+        "q": "reggaeton latin hits 2026",
         "min": 90,
         "max": 40
       },
       {
         "key": "in-eletro",
         "title": "🎹 Eletrônica",
-        "q": "eletrônica dance house hits official video 2026",
+        "q": "eletrônica dance house hits 2026",
         "min": 90,
         "max": 40
       },
       {
         "key": "in-country",
         "title": "🤠 Country",
-        "q": "country music hits official video",
+        "q": "country music hits",
         "min": 90,
         "max": 40
       },
       {
         "key": "in-80",
         "title": "📼 Anos 80",
-        "q": "hits anos 80 internacional official video",
+        "q": "hits anos 80 internacional",
         "min": 90,
         "max": 40
       },
       {
         "key": "in-90",
         "title": "💿 Anos 90",
-        "q": "hits anos 90 internacional official video",
+        "q": "hits anos 90 internacional",
         "min": 90,
         "max": 40
       },
       {
         "key": "in-00",
         "title": "📀 Anos 2000",
-        "q": "hits anos 2000 internacional official video",
+        "q": "hits anos 2000 internacional",
         "min": 90,
         "max": 40
       },
       {
         "key": "in-love",
         "title": "💕 Baladas românticas",
-        "q": "love songs baladas românticas internacionais anos 80 90 official video",
+        "q": "love songs baladas românticas internacionais anos 80 90",
         "min": 90,
         "max": 40
       }
